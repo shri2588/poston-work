@@ -1,0 +1,62 @@
+.buttons-part {
+  > button {
+    border: 1.5px solid #7937ff;
+    border-radius: 5px;
+    background: transparent;
+    color: #7937ff;
+    padding: 0.2rem 1rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: #7937ff;
+      color: #fff;
+    }
+  }
+}
+
+.payment_img {
+  height: 50px;
+  object-fit: cover;
+}
+.socialCloumn {
+  transition: all 2s ease !important;
+  cursor: pointer;
+}
+.hover_part {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  > span {
+    font-size: 1.5rem;
+    height: 30px;
+    width: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.hover1 {
+  color: #7937ff;
+  border: 1.5px solid #7937ff;
+}
+.hover1:hover {
+  background: #7937ff;
+  color: #fff;
+}
+.hover2 {
+  color: #fdac41;
+  border: 1.5px solid #fdac41;
+}
+.hover2:hover {
+  background: #fdac41;
+  color: #fff;
+}
+
+.socialCloumn:hover .hover_part {
+  display: flex;
+}
